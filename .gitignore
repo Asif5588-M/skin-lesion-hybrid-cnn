@@ -22,3 +22,6 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+# Model weights (stored on HuggingFace instead)
+skin-lesion-hybrid-cnn/models/*.pth
+skin-lesion-hybrid-cnn/models/.cache/
