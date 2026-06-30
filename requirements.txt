@@ -1,0 +1,38 @@
+# Core
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+
+# Deep Learning
+torch
+torchvision
+timm                  # pretrained model zoo (EfficientNet, ResNet, ViT, etc.) — current standard in 2026
+pytorch-lightning     # cleaner training loops, checkpointing, mixed precision
+
+# Hybrid architecture / optimization
+deap                  # genetic algorithms / NSGA-II
+
+# Explainability
+shap
+grad-cam              # pytorch-grad-cam package, current standard for Grad-CAM/Grad-CAM++
+
+# Data handling
+opencv-python
+pillow
+albumentations        # current standard for medical image augmentation (better than torchvision transforms alone)
+
+# Experiment tracking
+mlflow                # you already use this — keep it consistent across projects
+wandb                 # optional, very common for tracking Colab training runs in real time
+
+# Deployment
+streamlit
+fastapi
+uvicorn
+
+# Utilities
+python-dotenv
+pyyaml
+tqdm
